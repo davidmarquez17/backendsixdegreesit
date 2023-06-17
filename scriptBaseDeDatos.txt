@@ -1,0 +1,43 @@
+CREATE DATABASE PruebaSD
+use PruebaSD
+
+CREATE TABLE Usuarios(
+usuID int identity(1,1) primary key,
+nombre varchar(100),
+apellido varchar(100)
+)
+
+INSERT INTO [dbo].[Usuarios]
+           ([nombre]
+           ,[apellido])
+     VALUES
+           ('Luis'
+           ,'Diaz Diaz')
+
+INSERT INTO [dbo].[Usuarios]
+           ([nombre]
+           ,[apellido])
+     VALUES
+           ('Andres'
+           ,'Rodriguez Vera')
+
+INSERT INTO [dbo].[Usuarios]
+           ([nombre]
+           ,[apellido])
+     VALUES
+           ('Jose'
+           ,'Giraldo Lopez')
+
+INSERT INTO [dbo].[Usuarios]
+           ([nombre]
+           ,[apellido])
+     VALUES
+           ('Falcao'
+           ,'Garcia Garcia')
+
+INSERT INTO [dbo].[Usuarios]
+           ([nombre]
+           ,[apellido])
+     VALUES
+           ('Juan'
+           ,'Cuadrado Cuadrado')
